@@ -1,0 +1,14 @@
+﻿INSERT INTO MANAGERS (ID, NAME) VALUES
+(1, 'Manager 1'),
+(2, 'Manager 2');
+
+INSERT INTO CUSTOMERS (ID, NAME, MANAGERID) VALUES
+(1, 'Customer 1', 1),
+(2, 'Customer 2', 2),
+(3, 'Customer 3', 1);
+
+INSERT INTO ORDERS (ID, DATE, AMOUNT, CUSTOMERID) VALUES
+(1, '2022-01-01', 500, 1),
+(2, '2023-01-02', 3000, 2),
+(3, '2023-01-03', 300, 3),
+(4, '2023-01-04', 1500, 1);
